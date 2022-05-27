@@ -1,0 +1,105 @@
+section {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  margin: 0 -8px;
+}
+
+.noselect {
+  float: right;
+  position: absolute;
+  left: 88%;
+  top: 3%;
+	color: darkblue;
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+		-webkit-tap-highlight-color: transparent;
+}
+
+button {
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+	background: #6dd6d1;
+	border: none;
+	border-radius: 10px;
+	font-family: 'Damion', cursive;
+	color: white;
+	font-size: 20px;
+	transition: 500ms;
+}
+
+button:hover {
+		border: 2px solid #6dd6d1;
+	animation: hueRotation 2s linear infinite;
+}
+
+@keyframes hueRotation {
+	to {filter: hue-rotate(360deg);}
+}
+
+button:focus {
+	outline: none;
+}
+
+.divider {
+  width: 0px;
+  margin: 5px;
+  background: yellow;
+}
+
+.module {
+  background: hsl(204 100% 5%);
+  font-family: system-ui;
+  font-size: min(200%, 5vmin);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h4{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: linear-gradient(to right,red,orange,yellow,green,blue,indigo,violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.button-67 {
+  float: left;
+  position: absolute;
+  align-items: center;
+  background: hsl(204 100% 5%);
+  border-radius: 20px;
+  color: skyblue;
+  display: flex;
+  font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;
+  font-size: 1rem;
+  justify-content: center;
+  line-height: 1.5rem;
+  padding: 5px;
+  padding-left: 10px;
+  position: relative;
+  text-align: center;
+  transition: .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: pre;
+  width: max-content;
+  word-break: normal;
+  word-spacing: normal;
+}
+
+.button-67:hover {
+  background: lime;
+  color: darkblue;
+}
