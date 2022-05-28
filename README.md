@@ -2,7 +2,9 @@
 
 ### This is a project for [Future Ready Talent](https://futurereadytalent.in/) Internship. Which is based on Microsoft Azure Cloud Services.
 
-A WebApp that detect fruits from image. Designed using HTML5, CSS3, JAVASCRIPT, PYTHON, FLASK, AZURE(cognitive-services, custom-vision, app-service).
+A WebApp that detect fruits from image.
+
+Designed using HTML5, CSS3, JAVASCRIPT, PYTHON, FLASK, AZURE(cognitive-services, custom-vision, app-service).
 
 This Project is only for DEMO purpose so currently only detecting 4 fruits => Apple, Banana, Green Apple, and Orange.
 
