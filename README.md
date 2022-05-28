@@ -15,4 +15,11 @@ Requirements:
 * Pillow==9.1.1
 * python-dotenv==0.20.0
 
+Recommendations for best view
+*	Device: Desktop
+*	Browsers: Chrome, Safari, Opera, Edge. Brave
+*	Resolution: 1920*1080
+*	OS: Windows, macOS
+*	Zoom: 100%, Fullscreen
+
 ## Website : https://fruit-detector-01.azurewebsites.net/
