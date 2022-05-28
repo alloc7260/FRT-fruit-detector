@@ -1,6 +1,7 @@
 # FRT-fruit-detector
 
-### This is a project for [Future Ready Talent](https://futurereadytalent.in/) Internship. Which is based on Microsoft Azure Cloud Services.
+### This is a project for [Future Ready Talent](https://futurereadytalent.in/) Internship.
+### Which is based on Microsoft Azure Cloud Services.
 
 A WebApp that detect fruits from image.
 
