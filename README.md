@@ -33,3 +33,4 @@ BROWSER Recommendations for best view:
 *	Zoom: 100%, Fullscreen
 
 ## Website : https://fruit-detector-01.azurewebsites.net/
+## YouTube : https://youtu.be/jdPhncs-xSg
