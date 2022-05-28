@@ -8,6 +8,13 @@ Designed using HTML5, CSS3, JAVASCRIPT, PYTHON, FLASK, AZURE(cognitive-services,
 
 This Project is only for DEMO purpose so currently only detecting 4 fruits => Apple, Banana, Green Apple, and Orange.
 
+### How To Run :
+1) Open [URL](https://fruit-detector-01.azurewebsites.net/)
+2) Click Upload Image Button (top left corner)
+3) Select Image and Upload (you can see the image below upload image button)
+4) Click Predict Button (top right corner)
+5) Boom! (detected image can be seen below predict button)
+
 PIP Requirements:
 * azure-cognitiveservices-vision-customvision==3.1.0
 * Flask==2.0.2
