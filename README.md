@@ -8,7 +8,7 @@ Designed using HTML5, CSS3, JAVASCRIPT, PYTHON, FLASK, AZURE(cognitive-services,
 
 This Project is only for DEMO purpose so currently only detecting 4 fruits => Apple, Banana, Green Apple, and Orange.
 
-Requirements:
+PIP Requirements:
 * azure-cognitiveservices-vision-customvision==3.1.0
 * Flask==2.0.2
 * matplotlib==3.5.1
@@ -17,7 +17,7 @@ Requirements:
 * Pillow==9.1.1
 * python-dotenv==0.20.0
 
-Recommendations for best view
+BROWSER Recommendations for best view:
 *	Device: Desktop
 *	Browsers: Chrome, Safari, Opera, Edge, Brave
 *	Resolution: 1920*1080
