@@ -17,7 +17,7 @@ Requirements:
 
 Recommendations for best view
 *	Device: Desktop
-*	Browsers: Chrome, Safari, Opera, Edge. Brave
+*	Browsers: Chrome, Safari, Opera, Edge, Brave
 *	Resolution: 1920*1080
 *	OS: Windows, macOS
 *	Zoom: 100%, Fullscreen
