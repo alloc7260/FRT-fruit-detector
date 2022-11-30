@@ -5,7 +5,29 @@
 	<script type=text/javascript src="{{url_for('static',filename='ttt.js')}}"></script>
 	<link   rel="stylesheet" type="text/css" href="{{url_for('static',filename='ttt.css')}}">
 </head>
-	<body style="background: #222;">
+<body style="background: #222">
+	<div class="gradient" style="background: linear-gradient(to right, red, purple);">
+		<div class="bigcontainer">
+
+			<!-- <div class="upperc"> -->
+				<form action="/save" method="POST" enctype="multipart/form-data" class="upperc">
+				<div class="button" ><label for="file" class="button-67" role="button"><input accept="image/*" type="file" name="file" id="file" onchange="loadFile(event)">Upload Image</label></div>
+				<div class="title" ><h4>FRT Fruit Detector Web-App</h4></div>
+				<div class="button" ><button onclick="" class="button-67">Detect Fruits</button><input type="text" name="js1" id="js1" style="display: none;"></div>
+				</form>
+			<!-- </div> -->
+
+			<div class="lowerc">
+				<div class="imagediv"><img id="input"  src="{{url_for('static',filename='produce.jpg')}}" class="image"/></div>
+				<div class="imagediv"><img id="output" src="{{url_for('static',filename='output.jpg')}}"  class="image"/></div>
+			</div> 
+
+		</div>
+	</div>
+</body>
+</html>
+
+<!-- <body style="background: #222;">
 		<section style="background: linear-gradient(to right, red, purple);">
 			<div class="module" style="margin-left: 10px; width:98.8%; height: 95vh;">
 
@@ -32,4 +54,4 @@
 			</div>
 		</section>
 	</body>
-</html>
+</html> -->

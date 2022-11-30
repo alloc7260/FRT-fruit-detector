@@ -5,31 +5,24 @@
 	<script type=text/javascript src="{{url_for('static',filename='ttt.js')}}"></script>
 	<link   rel="stylesheet" type="text/css" href="{{url_for('static',filename='ttt.css')}}">
 </head>
-	<body style="background: #222;">
-		<section style="background: linear-gradient(to right, red, purple);">
-			<div class="module" style="margin-left: 10px; width:98.8%; height: 95vh;">
+	<body style="background: #2a2d37">
+		<div class="gradient" style="background: linear-gradient(to right, red, purple);">
+			<div class="bigcontainer">
 
-				<form action="/save" method="POST" enctype="multipart/form-data" >
-					<label for="file" class="button-67" role="button" style="margin-top: 13px; margin-left:20px">
-						<input accept="image/*" type="file" name="file" id="file" onchange="loadFile(event)">Upload Image</label>
-					<button onclick="" class="noselect">Predict</button>
-					<input type="text" name="js1" id="js1" style="display: none;">
-				</form>
+				<!-- <div class="upperc"> -->
+					<form action="/save" method="POST" enctype="multipart/form-data" class="upperc">
+					<div class="button" ><label for="file" class="button-67" role="button"><input accept="image/*" type="file" name="file" id="file" onchange="loadFile(event)">Upload Image</label></div>
+					<div class="title" ><h4>FRT Fruit Detector Web-App</h4></div>
+					<div class="button" ><button onclick="" class="button-67">Detect Fruits</button><input type="text" name="js1" id="js1" style="display: none;"></div>
+					</form>
+				<!-- </div> -->
 
-				<h4 style="position: fixed; left: 44%; top: 1.8%; ">Select Image</h4>
-
-				<div style="height:7.6%"></div>
-
-				<section style="height: 93%;">
-					<div class="innerdivleft">
-						<img id="input" class="image"/>
-					</div>
-					<div class="innerdivright">
-						<img id="output" class="image"/>
-					</div>
-				</section>
+				<div class="lowerc">
+					<div class="imagediv"><img id="input"  class="image"/></div>
+					<div class="imagediv"><img id="output" class="image"/></div>
+				</div> 
 
 			</div>
-		</section>
+		</div>
 	</body>
 </html>

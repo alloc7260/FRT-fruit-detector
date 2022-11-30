@@ -1,3 +1,114 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border-width : 0
+}
+
+.gradient {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 98vw;
+  height: 98vh;
+  margin: 1vmin;
+  border-width : 0
+}
+
+.bigcontainer {
+  background-color: #2b2e37;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 96vh;
+  width: 96vw;
+  margin: 1vmin;
+  border-width : 0
+}
+
+.upperc {
+  height: 6vh;
+  width: 96vw;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-width : 0
+}
+
+@media (max-aspect-ratio: 3/4) {
+  .lowerc {
+      height: 90vh;
+      width: 96vw;
+      margin: 0 0 0 0;
+      display: flex;
+      flex-direction: column;
+      border-width : 0
+  }
+  .imagediv {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50%;
+      border-width : 0
+  }
+}
+
+@media (min-aspect-ratio: 3/4) {
+  .lowerc {
+      height: 90vh;
+      width: 96vw;
+      margin: 0 0 0 0;
+      display: flex;
+      flex-direction: row;
+      border-width : 0
+  }
+  .imagediv {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+      border-width : 0
+  }
+}
+
+.image {
+  width:35vmax;
+  height:35vmax;
+  border-width : 0
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width : 0
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width : 0
+}
+
+h4{
+  margin: 0;
+  text-align: center;
+  background: linear-gradient(to right,red,orange,green,blue,indigo,purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: system-ui;
+  font-size: 4vmin;
+  border-width : 0
+  /* visibility: visible; */
+}
+
+/*
 section {
   display: flex;
   flex-direction: row;
@@ -97,34 +208,26 @@ h4{
 input[type="file"] {
     display: none;
 }
+*/
 
 .button-67 {
-  float: left;
-  position: absolute;
-  align-items: center;
-  background: hsl(204 100% 5%);
-  border-radius: 20px;
-  color: skyblue;
   display: flex;
-  font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;
-  font-size: 1rem;
   justify-content: center;
-  line-height: 1.5rem;
-  padding: 5px;
-  padding-left: 10px;
-  position: relative;
-  text-align: center;
-  transition: .2s;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+  align-items: center;
+
+  background: #434752;
+  color: skyblue;
+
+  width: 99px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  border-radius: 14px;
+  padding: 2px 5px 2px 5px;
+
   white-space: pre;
-  width: max-content;
-  word-break: normal;
-  word-spacing: normal;
 }
 
 .button-67:hover {
   background: lime;
   color: darkblue;
-}
+} 
